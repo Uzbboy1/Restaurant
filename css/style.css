@@ -135,6 +135,11 @@ body {
   position: relative;
   left: -200px;
 }
+@media (max-width: 820px) {
+  .about-us-left {
+    display: none;
+  }
+}
 .about-us-left img {
   width: 100%;
   opacity: 0.7;
@@ -146,6 +151,11 @@ body {
   align-items: center;
   padding: 0 100px;
   box-sizing: border-box;
+}
+@media (max-width: 820px) {
+  .about-us-right {
+    width: 100%;
+  }
 }
 .about-us-right .stars {
   margin: 30px 0;
@@ -164,6 +174,11 @@ body {
 }
 .about-us-right .description::first-letter {
   padding-left: 50px;
+}
+@media (max-width: 820px) {
+  .about-us-right .description {
+    font-size: 15px;
+  }
 }
 
 .gallery .cards-wrapper {
@@ -198,6 +213,11 @@ body {
   color: #bbb;
   transition: color 0.7s;
 }
+@media (max-width: 820px) {
+  .footer .social-media-link {
+    font-size: 35px;
+  }
+}
 .footer .social-media-link:hover {
   color: #d3ab55;
 }
@@ -217,6 +237,12 @@ body {
   top: 10%;
   right: 5%;
   z-index: 300;
+}
+@media (max-width: 820px) {
+  .hamburger-menu {
+    width: 30px;
+    height: 30px;
+  }
 }
 .hamburger-menu .menu {
   display: flex;
@@ -246,6 +272,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 900px) {
+  .logo {
+    font-size: 30px;
+  }
+}
 
 .main-name {
   font-family: "Nunito", sans-serif;
@@ -254,6 +285,11 @@ body {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+@media (max-width: 820px) {
+  .main-name {
+    font-size: 40px;
+  }
 }
 
 .sub-name {
@@ -265,6 +301,11 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+@media (max-width: 820px) {
+  .sub-name {
+    font-size: 20px;
+  }
+}
 
 .main-heading {
   font-family: "Dancing Script", cursive;
@@ -272,6 +313,12 @@ body {
   font-weight: 300;
   color: #d3ab55;
   margin-bottom: 40px;
+}
+@media (max-width: 820px) {
+  .main-heading {
+    font-size: 50px;
+    font-weight: 100;
+  }
 }
 
 .sub-heading {
@@ -281,6 +328,11 @@ body {
   color: #bbb;
   margin-bottom: 80px;
   text-align: center;
+}
+@media (max-width: 820px) {
+  .sub-heading {
+    font-size: 30px;
+  }
 }
 
 .main-btn {
@@ -300,6 +352,13 @@ body {
 .main-btn:hover {
   background-color: #d3ab55;
   color: #262626;
+}
+@media (max-width: 820px) {
+  .main-btn {
+    font-size: 10px;
+    width: 150px;
+    height: 30px;
+  }
 }
 
 .card {
@@ -354,7 +413,13 @@ body {
   outline: none;
   cursor: pointer;
 }
+@media (max-width: 520px) {
+  .card {
+    font-size: 400px;
+  }
+}
 .card-img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   opacity: 0.5;
 }/*# sourceMappingURL=style.css.map */
